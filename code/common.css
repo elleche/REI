@@ -1,0 +1,47 @@
+.wrapper
+{   
+    min-width: 1000px;
+	margin: 0 auto;
+}	
+#tagCloud
+{
+	min-width: 980px; 
+	margin: 5px 0px;
+	padding: 10px; 
+	
+	background-color: #E7E7E7; 
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-decoration: none;
+	line-height: 1.2em;
+	text-indent: 0;
+	text-align: justify;
+}
+#mapCanvas
+{
+	height: 550px;
+    width: 1000px;
+	margin: 0 auto;
+}
+.tag
+{
+	cursor: pointer;
+	word-spacing:-1px;
+	margin: 0; 
+	padding: 0 1px;
+}
+.tag:hover, .active 
+{
+	background-color: #000000;
+	text-shadow: none;
+	color: #FFFFFF;
+}
+.inactive
+{
+	background-color: transparent;
+	text-shadow: 1px 1px 0 #FFFFFF;
+	color: #7A7575;
+}
+.infoBox {font-family: 'Times New Roman', Times, serif;}
+.infoBox h1 {font-size: 1.3em; margin: 0; color: #333333; font-family: inherit;}
+.infoBox h2 {font-size: 0.9em; font-weight: normal; margin: 0; padding: 5px 0 0 0; font-family: inherit;}
+.infoBox p {font-size: 1.1em;text-align: justify; margin: 10px 20px 0 15px; font-family: inherit;}
