@@ -1,0 +1,3 @@
+TODO:
+- clean up the code naming some more
+- in function handleGetProjectsQueryResponse(response) : //TODO either not use Visualization DataTable or write a custom Visualization (better?)
