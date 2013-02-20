@@ -103,7 +103,6 @@
 			return;
 		}
 
-		//TODO either not use Visualization DataTable or write a custom Visualization (better?)
 		dataTable = response.getDataTable();
 		if (dataTable != null)	
 		{
