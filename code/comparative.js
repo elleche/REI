@@ -9,7 +9,6 @@
 	var tagCloudHolderId = 'tagCloud';
 	var activeTagCSS = 'active';
 	var inactiveTagCSS = 'inactive';
-//	var capitalTags = ['european union', 'united nations'];
 	var projectVisuals = [];
 	var dataTable;
 	var projectsLocation = 'https://docs.google.com/spreadsheet/tq?key=0Aq_Q__MOujOMdHlhNG9QZE9tY2k1SHk3bjV1Z25Ebnc&headers=1&gid=0';
@@ -112,7 +111,6 @@
 			return;
 		}
 
-		//TODO either not use Visualization DataTable or write a custom Visualization (better?)
 		dataTable = response.getDataTable();
 		if (dataTable != null)	
 		{
@@ -336,12 +334,6 @@
 			var space = $('<span/>', { text: " " });
 			span.appendTo(div);
 			space.appendTo(div);
-			
-			//capitalize text
-//			if ($.inArray(tag, capitalTags) > -1)
-//			{
-//				span.css('text-transform', 'capitalize');
-//			}
 		}
 	}
 	
